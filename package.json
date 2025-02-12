@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "start": "cypress run"
+  },
   "dependencies": {
     "cypress": "^12.13.0"
   }
