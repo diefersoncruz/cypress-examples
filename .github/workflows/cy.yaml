@@ -22,4 +22,4 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm ${{ github.event.inputs.typeOfTest}}
+          start: npm run ${{ github.event.inputs.typeOfTest}}
